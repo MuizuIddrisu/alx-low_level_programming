@@ -1,11 +1,11 @@
-#include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
-* main - Prints the last digit of a randomly generated number
-* and whether it is greater than 5, less than 6, or 0.
+* main - Entry point
 *
-* Return: Always 0.
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -23,5 +23,5 @@ int main(void)
 	else
 		printf("less than 6 and not 0\n");
 
-	return 0;
+	return (0);
 }
